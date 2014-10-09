@@ -1,0 +1,60 @@
+
+
+#multiplicar{
+	background-color: lightpink; 
+
+}
+
+#texto{
+	background-color: lightpink;
+	
+}
+#principal{ /*por covencion se pone dos espacios identados*/
+			  background-image:url("img/espacio.jpg");
+			  background-size:100%100%;
+			  width:100%;
+			  box-shadow: 20px 20px 20px;
+			  border-radius: 20px;
+			  height:30vh; /*muestra solo el 20% de la imagen*/
+			  background-repeat:no-repeat;				
+			}
+			#titulo{
+				text-transform: inherit;
+				color: pink;
+				text-align: center;
+			}
+			nav {
+				background: linear-gradient(#35362E,#383931,#272822);
+				height: 17%;
+
+			}
+			nav ul{
+			list-style: none;
+			}
+
+			nav ul li{
+				display: inline;
+				padding-right:10%; 
+			}
+			
+			#a1{
+				background-color: grey;
+			}
+			#a2{
+				background-color: grey;
+			}
+			#a3{
+				background-color: grey;
+			}
+			#body{
+				background-color: grey;
+			}
+			img{
+				
+				box-shadow: 15px 15px 15px;
+			}
+			table{
+				color: #EFEFED;
+				border-color:#FF80C0; 
+			}
+
