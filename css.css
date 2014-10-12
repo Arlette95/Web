@@ -1,0 +1,87 @@
+#contenedor{ 
+	/*con padding le damos los margenes para el relleno*/
+	padding-left: 15px;
+	padding-right: 15px;/*el auto en derecha e izquierda es porque no hay un atributo center*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#nombre{
+	font-family: sans-serif; /*Se supone que esto cambia el estilo de la letra*/
+	color: #777;
+}
+
+nav{
+
+ 
+
+  background: linear-gradient(#E3E3DF,#DEDFD9,#DADADA);
+    width: 100%; /*manejo de porcentajes*/
+    height: 17%;
+    margin-right: auto;
+    margin-left: auto; /*con esto se centra el contenido*/
+    
+    border-radius: 10px;/*pra curvear el marco*/
+    margin-bottom: 20px;
+
+
+}
+
+nav ul{
+    list-style: none;
+}
+
+  .boton{
+    margin: 20px;
+        font-size:15px;
+        font-family:sans-serif;
+
+        color:#777;
+        padding-left: 0px;
+        border:1px;
+        width:80px;
+        height:50px;
+       }
+.btn-grupo{
+    padding: 0px;
+    display: block;
+}
+.contenido {
+
+    padding: 30px;
+  margin-bottom: 70px;
+  color: inherit;
+  background-color: #FFFFFF;
+  text-align: center;
+
+}
+
+.contenido p{
+     margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.boton-enviar{
+     color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  border-radius: 5px;
+  width:30%; height:auto;
+
+}
+
+@media (min-width: 1200px) {
+ .col-lg-4 {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+
+.boton-azul{
+    color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+  border-radius: 5px;
+  width: 100px;
+  height: auto;
+}
